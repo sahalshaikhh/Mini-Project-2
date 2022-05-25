@@ -1,0 +1,67 @@
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 1em;
+  border: 4px solid rgb(255, 0, 0);
+  border-radius: 12px;
+  color: rgb(251, 14, 14);
+}
+a.w:hover {
+  color: rgb(253, 8, 8);
+  font-size: 150%;
+}
+input,
+button {
+  float: right;
+}
+button {
+  text-shadow: 1px 1px 1px black, 0 0 23px blue, 0 0 4px darkblue;
+  color: rgb(246, 0, 0);
+}
+body {
+  background-color: rgb(231, 248, 135);
+}
+aside.b {
+  float: right;
+  border: 2px double black;
+  padding: 1em;
+  background-color: rgb(252, 132, 132);
+}
+figcaption.caption {
+  font: 1em sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  color: rgb(245, 225, 1);
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(133, 2, 2);
+}
+h1 {
+  font-family: "sofia", serif;
+  font-size: x-large;
+  text-shadow: 2px 2px 2px #8f8fba;
+}
+aside.font {
+  text-align: center;
+}
+i.fas {
+  font-size: 40px;
+  color: blueviolet;
+}
+i.fas:hover {
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+}
+i.far {
+  font-size: 3em;
+  color: rgb(95, 95, 95);
+}
+i.far:hover {
+  cursor: pointer;
+  color: darkorange;
+  font-size: 33px;
+}
+h1.p {
+  font-style: bold;
+}
+i.fab {
+  font-size: 2em;
+}
